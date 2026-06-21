@@ -5,7 +5,7 @@ extends CharacterBody2D
 @export var acceleration: float = 1200.0
 @export var friction: float = 1200.0
 #rolling
-@export var roll_speed: float = 280.0   
+@export var roll_speed: float = 500 
 @export var roll_duration: float = 0.3     
 var is_rolling: bool = false
 var roll_direction: Vector2 = Vector2.DOWN

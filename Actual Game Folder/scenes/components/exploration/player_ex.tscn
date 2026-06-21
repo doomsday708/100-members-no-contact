@@ -447,7 +447,7 @@ script = ExtResource("1_l66dl")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1935904447]
 sprite_frames = SubResource("SpriteFrames_ro5rq")
-animation = &"roll_down"
+animation = &"idle_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=33557156]
 position = Vector2(0, 1.5)
