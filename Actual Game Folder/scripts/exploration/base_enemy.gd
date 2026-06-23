@@ -27,7 +27,8 @@ extends CharacterBody2D
 var defeated: bool = false
 
 func _ready():
-	animator.play("idle_down")
+	if animator:
+		animator.play("idle_down")
 	if enemy_id != "" and Globals.is_enemy_defeated(enemy_id):
 		defeated = true
 	
